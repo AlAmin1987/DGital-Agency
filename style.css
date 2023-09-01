@@ -1,0 +1,137 @@
+/*  CSS  Fonts
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+*/
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/*    Header Area CSS Apply */
+
+
+
+
+  .container{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(98,34,204);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    
+}
+
+.logo{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-left: 25px;
+    
+}
+
+.pages ul li{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
+
+#highlight{
+  color: #FBA504;
+}
+.pages ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+   
+}
+
+
+
+#btn{
+    with: 70px;
+    height: 40px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+/*  Hero-Area CSS Apply */
+
+.hero-area{
+    height: 450px;
+    width: 100%;
+    background-color:rgb(98,34,204) ;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-content{
+    with: 120px;
+    height: 250px;
+    margin-top: 25px;
+    
+    
+}
+.hero-content h1  {
+    margin-bottom: 18px;
+    color: white;}
+.hero-content p  {
+    margin-bottom: 18px;
+    color: white;
+
+}
+
+
+img{
+    with: 40%;
+    height: 300px;
+}
+
+#btn1 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(251,165,4);
+    padding: 10px 20px;
+    outline: none;
+    font-family: serif;
+    font-size: 20px;
+   border-radius: 8px;
+   outline: none;
+ 
+}
+
+#btn2 {
+    width: 150px;
+    height: 50px;
+    background-color: #D22D46;
+    padding: 10px 20px;
+    outline: none;
+    font-family: serif;
+    font-size: 20px;
+   border-radius: 8px;
+   outline: none;
+   margin-left: 20px;
+ 
+}
+
