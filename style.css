@@ -47,6 +47,7 @@
     font-size: 22px;
     font-weight: 300;
     padding: 10px;
+   
     
 }
 
@@ -56,8 +57,10 @@
 .pages ul li a{
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    padding: 0 10px;
+    font-size: 15px;
     font-family: sans-serif;
+  
    
 }
 
@@ -66,12 +69,14 @@
 #btn{
     with: 70px;
     height: 40px;
-    font-size: 15px;
-    border: 2px solid red;
+    font-size: 25px;
+    border: 2px solid black;
     border-radius: 6px;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 5px  15px;
+    margin-right: 20px;
     cursor: pointer;
+    color: #d90f2d
+ 
 
 }
 
@@ -135,3 +140,85 @@ img{
  
 }
 
+/*  Hero Section CSS Apply */
+
+.hero-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  
+}
+
+.box1{
+    width: 400px;
+    height: 250px;
+    background-color:rgb(246,244,249) ;
+    padding-top: 25px;
+    margin-right: 10px;
+    transition:.3s;
+ 
+   
+}
+.box1:hover{
+    transform:scaleY(1.1)
+}
+.box1 h3{
+   margin-left: 110px;
+   margin-bottom: 15px;
+   font-size: 25px;
+}
+.box1 p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+
+.box2{
+    width: 400px;
+    height: 250px;
+    background-color:rgb(246,244,249) ;
+    padding-top: 25px;
+    margin-right: 10px;
+    transition:.3s;
+}
+.box2:hover{
+    transform:scaleY(1.1)
+}
+.box2 h3{
+    margin-left: 110px;
+    margin-bottom: 15px;
+    font-size: 25px;
+ }
+ .box2 p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;}
+.box3{
+    width: 400px;
+    height: 250px;
+    background-color:rgb(246,244,249) ;
+    padding-top: 25px;
+    transition:.3s;
+}
+.box3:hover{
+    transform:scaleY(1.1)
+}
+.box3 h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 25px;
+ }
+ 
+.box3 p{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.icon i{
+    font-size: 45px;
+    color:rgb(98,34,204);
+    margin-bottom: 20px;
+}
