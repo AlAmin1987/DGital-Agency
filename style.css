@@ -361,6 +361,7 @@ img{
                 .service-new:hover{
                     transform: scaleY(1.1);
                     background-color: #6222CC;
+                
                    
                 }
 
@@ -406,4 +407,55 @@ img{
                     outline: none;
                 }
                 
+                /*  Our Project CSS Apply */
 
+             #our-project{
+                text-align: center;
+                color: #FBA504;
+                font-size: 25px;
+                margin-top: 100px;
+             }
+
+             #Recent-project{
+                text-align: center;
+                color: #d90f2d;
+                padding-top: 10px;
+                margin-bottom: 50px;
+                
+             }
+
+
+
+             .projects{
+                with: 650px;
+                height: 900px;
+                background-color: #F6F4F9;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gird-gap:5px;
+                margin-left: 40px;
+                padding: 5px;
+                               
+                   }
+              
+                  
+             .div1:hover{
+                transform:scale(1.1);
+                transition: 1.5s;
+     
+             }
+
+                    
+
+             #design{
+                color: #6222CC;
+                padding: 15px;
+              
+
+             }
+             .subheading{
+                margin: 15px,0px;
+                padding-bottom: 20px;
+                font-family: sans-serif;
+                font-weight: 500;
+             }
